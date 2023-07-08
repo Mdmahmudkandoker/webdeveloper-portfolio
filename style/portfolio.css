@@ -89,7 +89,7 @@ nav a {
 .banner-greeting {
     font-size: 45px;
     font-style: normal;
-    color: #474747;
+    color: #3a2222;
     margin-bottom: 0;
     font-weight: 600;
 }
@@ -109,7 +109,10 @@ nav a {
 }
 
 /* main section style */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section style */
 
@@ -118,4 +121,12 @@ nav a {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
